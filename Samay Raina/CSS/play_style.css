@@ -1,0 +1,71 @@
+.navbar{
+    display: flex;
+    background: rgb(224, 171, 171);
+    height: 60px;
+    
+}
+.navbar h1{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 83%;
+    color: red;
+}
+.navbar h1:hover{
+    border: 2px solid red;
+    border-radius: 5px;
+    background: red;
+    color: rgb(224, 171, 171);
+}
+.support {
+    padding: 10px 0px 5px;
+    margin-top: 10px;
+    
+    background: red;
+    border: 2px solid red;
+    border-radius: 5px;
+    height: 25px;
+    width: 100px;
+    align-items: center;
+    text-align: center;
+}
+.support a{
+    margin-top: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.support:hover{
+    background: rgb(224, 171,171);
+}
+table.chessboard {
+    margin: 80px auto;
+    background: #999;
+    border: 25px solid #333;
+  }
+  
+  td.chessboard {
+    width: 70px;
+    height: 70px;
+  }
+  td.chessboard:hover{
+      cursor: pointer;
+  }
+  tr.chessboard:nth-child(even) td.chessboard:nth-child(even) {
+    background: white;
+  }
+  tr.chessboard:nth-child(odd) td.chessboard:nth-child(odd) {
+    background: white;
+  }
+  tr.chessboard:nth-child(1),tr.chessboard:nth-child(2),tr.chessboard:nth-child(7),tr.chessboard:nth-child(8){
+      text-align: center;
+      font-size: 50px;
+  }
+  span{
+    display: block;
+    height: 60px;
+    font-size: 50px;
+    
+    
+    
+  }
